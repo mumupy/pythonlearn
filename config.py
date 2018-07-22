@@ -11,7 +11,8 @@ import os
 def init():
     """初始化组件 如果组件没有安装 则安装组件"""
     os.system("pip install kafka")
-    os.system("python -m pip install --upgrade pip")
+    # os.system("python -m pip install --upgrade pip")
+    os.system("pip install redis")
 
 
 if __name__ == "__main__":
