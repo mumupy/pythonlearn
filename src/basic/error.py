@@ -15,5 +15,7 @@ except SyntaxError as error:
     print("keyError: %s" % error)
 except EOFError as error:
     print("eoferror: %s" % error)
+else:
+    print("success")
 finally:
     print("finally...")

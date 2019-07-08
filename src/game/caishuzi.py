@@ -40,4 +40,5 @@ def caishuzi(heaerNumber=10, maxRetry=3):
         raise TypeError("heaerNumber、maxRetry 类型错误")
 
 if __name__ == "__main__":
-    caishuzi(int(random.uniform(0, 10)), 2)
+    caishuzi(int(random.uniform(0, 10)), 3)
+
