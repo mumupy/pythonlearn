@@ -3,7 +3,6 @@ from __future__ import unicode_literals
 
 from django.http import HttpResponse
 from django.shortcuts import render
-# Create your views here.
 from django.views.decorators.http import require_http_methods
 
 from app01.models import Test
