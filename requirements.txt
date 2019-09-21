@@ -7,3 +7,7 @@ pandas
 sympy
 nose
 imageai
+matplotlib
+python-qt5
+pyautogui
+opencv-python
