@@ -4,7 +4,6 @@
 # @Author  : ganliang
 # @File    : matplotlib.py
 # @Desc    : matplotlib图形绘制
-import time
 
 import matplotlib.font_manager
 import numpy as np
@@ -38,11 +37,11 @@ def show_font_plot():
     # zhfont1 = matplotlib.font_manager.FontProperties(family="STFangsong")
     x = np.arange(1, 11)
     y = 2 * x + 5
-    plt.title("菜鸟教程 - 测试", fontproperties=zhfont1)
+    plt.title(u"菜鸟教程 - 测试", fontproperties=zhfont1)
 
     # fontproperties 设置中文显示，fontsize 设置字体大小
-    plt.xlabel("x 轴", fontproperties=zhfont1)
-    plt.ylabel("y 轴", fontproperties=zhfont1)
+    plt.xlabel(u"x 轴", fontproperties=zhfont1)
+    plt.ylabel(u"y 轴", fontproperties=zhfont1)
     plt.plot(x, y)
     plt.show()
 
@@ -152,4 +151,4 @@ def show_3d_plot():
     plt.show()
 
 
-show_3d_plot()
+show_font_plot()
